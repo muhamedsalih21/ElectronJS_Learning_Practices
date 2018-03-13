@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="./css/photon.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="mainWrapper">
+        <h1>CRUD App</h1>
+        <form>
+            <div class="form-group">
+                <label>File name</label>
+                <input id="FileName" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>
+                    Contents
+                </label>
+                <textarea id="FileContents" class="form-control" rows="5"></textarea>
+            </div>
+        </form>
+        <button id="btnCreate" class="btn btn-default">Create</button>
+        <button id="btnRead" class="btn btn-default"> Read</button>
+        <button id="btnDelete" class="btn btn-default"> Delete </button>
+
+    </div>
+    <script>
+        require('./index.js')
+    </script>
+</body>
+
+</html>
